@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.harsh.secollege.MainActivity"
+    android:orientation="vertical">
+
+
+
+        <EditText
+            android:id="@+id/studentid"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="Full Name"
+            />
+
+        <EditText
+            android:id="@+id/studentname"
+            android:layout_width="280dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:hint="Date Of Birth"
+            />
+
+        <Button
+            android:id="@+id/btnload"
+            android:onClick="loadStudents"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="LOAD DATA"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="80dp"
+                android:onClick="addStudent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:text="ADD"
+                android:gravity="center"
+                android:clickable="true"
+                />
+
+            <Button
+                android:id="@+id/btnfind"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:onClick="findStudent"
+                android:clickable="true"
+                android:text="FIND"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/btnupdate"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:text="UPDATE"
+                android:onClick="updateStudent"
+                android:clickable="true"
+                android:gravity="center"
+                />
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:onClick="removeStudent"
+                android:layout_margin="5dp"
+                android:text="DELETE"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1st"
+                android:textSize="15dp"
+                android:textStyle="italic"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+

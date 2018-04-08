@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.harsh.secollege.Match">
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/country_arrays"
+        android:prompt="@string/country_prompt">
+
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/district_arrays"
+        android:prompt="@string/district_prompt">
+
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:entries="@array/village_arrays"
+        android:prompt="@string/village_prompt">
+
+
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Confirm"
+        />
+
+
+
+</LinearLayout>

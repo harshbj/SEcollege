@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SE</string>
+
+
+    <string name="country_prompt">SELECT STATES</string>
+
+    <string-array name="country_arrays">
+        <item>MAHARASTHRA</item>
+        <item>GUJARAT</item>
+        <item>PUNJAB</item>
+        <item>GOA</item>
+        <item>DELHI</item>
+    </string-array>
+
+    <string name="district_prompt">SELECT STATES</string>
+
+    <string-array name="district_arrays">
+        <item>THANE</item>
+        <item>PALGHAR</item>
+        <item>BOISER</item>
+        <item>PUNE</item>
+    </string-array>
+
+    <string name="village_prompt">SELECT STATES</string>
+
+    <string-array name="village_arrays">
+        <item>BHAYNADER</item>
+        <item>DAHISAR</item>
+        <item>VASAI</item>
+        <item>NAIGOAV</item>
+
+    </string-array>
+
+
+</resources>
